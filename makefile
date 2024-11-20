@@ -26,7 +26,7 @@ run:
 
 clean:
 	@echo "Cleaning up..."
-	@rm -rf $(BUILDDIR)* $(DOCDIR)*
+	@rm -rf $(BUILDDIR) $(DOCDIR)*
 	@echo "Done."
 
 javadoc:
